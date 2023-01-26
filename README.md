@@ -19,13 +19,15 @@ The content in the original file will be copied in the new file.
 End the program.
 ## PROGRAM:
 ```python
-with open("sample1.txt", "r") as firstfile:
-    with open("sample2.txt", "a") as secondfile:
+# Developed By: Sai Praneeth K
+# Reference number: 22005263
+with open("copy.txt","r") as firstfile:
+    with open("text1.txt", "a") as secondfile:
         for line in firstfile:
             secondfile.write(line)
 ```
 ### OUTPUT:
-![MODEL](/5c(1).png)
-![MODEL](/5c(2).png)
+![MODEL](/copy1.jpg)
+![MODEL](/copy2.jpg)
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
